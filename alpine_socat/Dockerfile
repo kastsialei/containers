@@ -1,6 +1,6 @@
-FROM alpine:3.6
+FROM alpine:edge
 
-MAINTAINER  Yahor Kastsialei<y.kastsialei@gmail.com>
+LABEL maintainer Yahor Kastsialei<y.kastsialei@gmail.com>
 
 RUN apk update && apk add socat
 
